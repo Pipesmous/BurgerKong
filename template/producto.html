@@ -1,0 +1,14 @@
+<div class="producto">
+	<div class="prod">
+		<div class="titleProd">{{TITULO}}</div>
+		<div class="imgProd"><img src="{{IMG}}" alt=""></div>
+	</div>
+	<div class="cantProd">
+		<form method="GET">
+		<input type="submit" id="masBtn" name="add{{ID}}" value="+"> 
+		{{CANTPROD}} 
+		<input type="submit" id="restBtn" name="remove{{ID}}" value="-">
+		</form>
+	</div>
+	<div class="precioProd">{{PRECIO}}</div>
+</div>

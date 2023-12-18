@@ -1,0 +1,67 @@
+@import url(//db.onlinewebfonts.com/c/c5f70443eb657fcfadfd17a973fad2e0?family=BourbonW00-Regular);
+@font-face {
+	font-family: "BourbonW00-Regular"; 
+	src: url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.eot"); 
+	src: url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.eot?#iefix") format("embedded-opentype"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.woff2") format("woff2"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.woff") format("woff"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.ttf") format("truetype"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.svg#BourbonW00-Regular") format("svg"); 
+} 
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "BourbonW00-Regular";
+}
+header{
+	background-color: #a46404;
+	display: flex;
+	height: 20vh;
+}
+#icon{
+	padding: 1rem;
+}
+#logo{
+	height: 15vh;
+}
+#contentButtons{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+#contentButtons a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #fb9d04;
+	width: 50%;
+	font-size: 5vw;
+}
+#contentButtons a:hover{
+	animation: 0.5s butonsHover;
+}
+
+#goToAdmin{
+	display: flex;
+	justify-content: space-around;
+	width: max-content;
+	margin-right: 5%;
+}
+#goToAdmin a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #5d1a22;
+	width: 50%;
+	font-size: 2.5vw;
+}
+#goToAdmin a:hover{
+	animation: 0.5s butonsHover;
+}
+/*Animaciones*/
+@keyframes butonsHover{
+	0%{transform: scale(1,1);}
+    100%{transform: scale(1.15,1.15);}
+}

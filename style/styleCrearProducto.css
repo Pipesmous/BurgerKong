@@ -1,0 +1,105 @@
+@import url(//db.onlinewebfonts.com/c/c5f70443eb657fcfadfd17a973fad2e0?family=BourbonW00-Regular);
+@font-face {
+	font-family: "BourbonW00-Regular"; 
+	src: url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.eot"); 
+	src: url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.eot?#iefix") format("embedded-opentype"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.woff2") format("woff2"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.woff") format("woff"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.ttf") format("truetype"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.svg#BourbonW00-Regular") format("svg"); 
+} 
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "BourbonW00-Regular";
+}
+#wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: right;
+	height: 100vh;
+	background-color: #5d1a22;
+}
+.midWrapper{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.mid2Wrapper{
+	display: grid;
+	justify-content: right;
+	height: 100%;
+	width: max-content;
+}
+/*WRAPPER 1*/
+#titleWelcome{
+	font-size: 4vw;
+	color: #fb9d04;
+	text-align: center;
+}
+#contentForm{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fb9d04;
+	border-radius: 4px;
+	padding: 1vw;
+}
+.inputForm{
+	width: 100%;
+	background: none;
+	border: none;
+	font-size: 1.2vw;
+	color: #5d1a22;
+	margin: .2vw;
+	border-bottom-style: solid;
+   	border-bottom-width: 2px;
+   	border-bottom-color: #5d1a22;
+}
+.inputFileForm{
+	width: 100%;
+	background: none;
+	border: none;
+	font-size: 1.2vw;
+	color: #5d1a22;
+	margin: .2vw;
+}
+#btnSubmit,#btnCancelar{
+	width: 30%;
+	background-color: #e39414;
+	border-radius: 2px;
+	font-size: 1.3vw;
+	color: #5d1a22;
+	padding: .2vw;
+	border: none;
+}
+/*Wrapper 2 -------------*/
+#contentLink{
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	width: 10vw;
+	height: 100%;
+}
+#btnMenu{
+	width: 80%;
+	height: max-content;
+	margin: 1vw;
+	text-decoration: none;
+	color: #fb9d04;
+	font-size: 2vw;
+	display: flex;
+	justify-content: right;
+}
+#btnMenu:hover{
+	cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.contentSucursales{
+	margin: 2vh;
+	width: 70%;
+	padding: 1em;
+}
+.contentSucursales a{
+	text-decoration: none;
+	color: #fb9d04;
+}
+.sucursales{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 3vw;
+	padding: 1.2em;
+	margin: 3vh;
+	background-color: #a46404;
+	border-radius: 3vh;
+}
+.sucursales:hover{
+	animation: 0.5s sucursalHover; 
+}
+
+/*X SUCURSAL*/
+.iconSucursal{
+	padding: 1rem;
+}
+.logoSucursal{
+	height: 15vw;
+}
+/*ANIMACIONES*/
+@keyframes sucursalHover{
+	0%{transform: scale(1,1);}
+    100%{transform: scale(1.05,1.05);}
+}

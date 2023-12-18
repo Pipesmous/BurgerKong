@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #5d1a22;
+	height: 100vh;
+}
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+#contentTicket{
+	padding: 5%;
+}
+#ticket{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fb9d04;
+	padding: 2%;
+	border-radius: 10px;
+}
+#contentTotal{
+	display: flex;
+	width: 100%;
+	padding: .5vw;
+	justify-content: space-between;
+	font-size: 4vw;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #a46404;
+}
+form{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: max-content;
+	margin-top: 2%;
+}
+#nameClient,#surnameClient,#dniClient,#telClient,#dirClient,#emailClient,#passClient,#btnClient{
+	background-color: #a46404;
+	border: none;
+	width: 20%;
+	padding: 1vw;
+	text-align: center;
+	font-size: 1.5vw;
+	border-radius: 10px;
+	margin: .5vw;
+}
+#nameClient,#surnameClient,#dniClient,#telClient,#emailClient,#passClient,#dirClient:focus{
+	outline: none;
+}
+#infoTicket{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 2%;
+}
+.prod{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 10%;
+}
+.nameProd,.precioProd{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2vw;
+}
+.contentImg{
+	height: 25vh;
+}
+.imgProd{
+	height: 100%;
+}

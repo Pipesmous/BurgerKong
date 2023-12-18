@@ -1,0 +1,51 @@
+@import url(//db.onlinewebfonts.com/c/c5f70443eb657fcfadfd17a973fad2e0?family=BourbonW00-Regular);
+@font-face {
+	font-family: "BourbonW00-Regular"; 
+	src: url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.eot"); 
+	src: url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.eot?#iefix") format("embedded-opentype"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.woff2") format("woff2"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.woff") format("woff"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.ttf") format("truetype"), 
+		url("//db.onlinewebfonts.com/t/c5f70443eb657fcfadfd17a973fad2e0.svg#BourbonW00-Regular") format("svg"); 
+} 
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "BourbonW00-Regular";
+}
+body{
+	background-color: #5d1a22;
+	height: 100vh;
+}
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+#msg,#ticket{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.5vw;
+	color: #fb9d04;
+	height: 20%;
+}
+#btnGoToSucursales{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25%;
+	width: 100%;
+}
+#btnConfirm{
+	font-size: 3vw;
+	background-color: #fb9d04;
+	border: none;
+	color: #5d1a22;
+	padding: 2%;
+	border-radius: 10px;
+	text-decoration: none;
+}
